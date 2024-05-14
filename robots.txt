@@ -1,1 +1,1 @@
-Sitemap: https://LabStatsca.github.io/Template-Guide.github.io/sitemap.xml
+Sitemap: https://LabStatsca.github.io/Template-Guide/sitemap.xml
