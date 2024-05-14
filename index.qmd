@@ -1,14 +1,16 @@
 ---
-title: "LabStats.ca Reporting Template Guide"
+#title: "LabStats.ca Reporting Template Guide"
 ---
 
-## Introduction
+![](images/labstats_ca_logo.png){width="251"}
 
--   **Objective of the Guide**: Provide instructions for completing the LabStats reporting template (Excel xlsx file format).
+## Introduction to this guide
 
--   **Scope**: Applicable to all laboratories participating in a LabStats PT sample round.
+-   **Objective**: Provide a walk-through of the [Labstats.ca](Labstats.ca "Labstats.ca") reporting template (Excel xlsx file format)
 
-Signup info is available at [Labstats.ca](Labstats.ca "Labstats.ca")
+-   **Scope**: Applicable to all laboratories participating in a [Labstats.ca](Labstats.ca "Labstats.ca") Proficiency Test
+
+Signup information and program details are available at [Labstats.ca](Labstats.ca "Labstats.ca")
 
 ## Accessing the Reporting Template
 
@@ -18,9 +20,10 @@ Signup info is available at [Labstats.ca](Labstats.ca "Labstats.ca")
 
 ## Version Control
 
--   Each sample round will use a dedicated version of the Reporting Template. Ensure you are using the latest version by comparing the Sample_Date and Sample_Site cells in the Lab_Code worksheet to the Sample Round you are participating in (cells G1 and G2):
+-   Each sample round will use a dedicated version of the Reporting Template
+-   Template version is specified on Row 3 of the **Read_Me** worksheet:
 
-![](images/template-version.PNG){width="512"}
+![](images/template-version.PNG)
 
 ## Filename
 
@@ -28,9 +31,6 @@ Signup info is available at [Labstats.ca](Labstats.ca "Labstats.ca")
 
     -   **LabID-20240422_Data_Reporting_LabName_raw.xlsx**
 
-```{=html}
-<!-- -->
-```
 -   Open the reporting template, change to the Lab_Code worksheet
 
     -   Find the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats\@ocwa.com ) if you cannot locate your lab
@@ -51,13 +51,13 @@ Signup info is available at [Labstats.ca](Labstats.ca "Labstats.ca")
 
 ![](images/read_me.PNG){width="820"}
 
-## Lab_ID Worksheet
+## Lab_ID
 
 -   If the filename was correctly renamed your Lab_ID will be populated in C1 with the name in E1
 
     -   Verify that the Lab_ID and name are correct
 
-## Method_Summary Worksheet
+## Method_Summary
 
 -   This worksheet is where the details of your methods are filled out starting with Method 1 in cell F9
 
@@ -67,10 +67,34 @@ Signup info is available at [Labstats.ca](Labstats.ca "Labstats.ca")
 
 -   Indicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)
 
-## Std_Curve_Data Worksheet (qPCR only)
+## Std_Curve_Data (qPCR only)
 
 -   For methods using qPCR, this sheet is where the dilution series data from your standard curve(s) are populated
 
 -   Columns N through P are used to indicate if each dilution series point is used in your standard curve or not. In other words have any of the points chosen to be discarded keeping in mind the requirements from the [Ontario protocol](https://www.ontario.ca/page/protocol-analyzing-wastewater-samples) (Section 3)
 
 ![](images/points_indicator.PNG)
+
+## Std_Curve_Summary (qPCR only)
+
+-   For methods using qPCR, this sheet is where parameters of the standard curves are reported
+
+    -   Paired with the dilution series data reported on Std_Curve_Data
+
+-   If a long term standard curve is used to quantify results, please indicate in the column 'Long-term_curve'
+
+## qPCR_QC_Data (qPCR only)
+
+-   For methods using qPCR, this sheet is where quality control results are to be reported
+
+## dPCR_QC_Data (dPCR only)
+
+-   For methods using dPCR, this sheet is where quality control results are to be reported
+
+## ESV_CF_Calc
+
+-   Effective sample volume (ESV) and concentration factor (CF) calculator
+
+-   This calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly
+
+    -   ESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed
