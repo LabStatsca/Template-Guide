@@ -2,63 +2,63 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "",
     "text": "Objective of the Guide: Provide instructions for completing the LabStats reporting template (Excel xlsx file format).\nScope: Applicable to all laboratories participating in a LabStats PT sample round.\n\nSignup info is available at Labstats.ca"
   },
   {
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "",
     "text": "Objective of the Guide: Provide instructions for completing the LabStats reporting template (Excel xlsx file format).\nScope: Applicable to all laboratories participating in a LabStats PT sample round.\n\nSignup info is available at Labstats.ca"
   },
   {
     "objectID": "index.html#accessing-the-reporting-template",
     "href": "index.html#accessing-the-reporting-template",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "Accessing the Reporting Template",
     "text": "Accessing the Reporting Template\n\nAfter login on Labstats.ca, the reporting template is available for download in the ‘Shared’ folder of ‘Participant info & results’"
   },
   {
     "objectID": "index.html#version-control",
     "href": "index.html#version-control",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "Version Control",
     "text": "Version Control\n\nEach sample round will use a dedicated version of the Reporting Template. Ensure you are using the latest version by comparing the Sample_Date and Sample_Site cells in the Lab_Code worksheet to the Sample Round you are participating in (cells G1 and G2):"
   },
   {
     "objectID": "index.html#filename",
     "href": "index.html#filename",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "Filename",
     "text": "Filename\n\nThe downloaded reporting template will have a file name in this format:\n\nLabID-20240422_Data_Reporting_LabName_raw.xlsx\n\n\n\n\nOpen the reporting template, change to the Lab_Code worksheet\n\nFind the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats@ocwa.com ) if you cannot locate your lab\n\nClose the reporting template\nEdit the file name in Windows to replace the ‘LabID’ with your Lab_ID number from above and change the ‘Labname’ to an abbreviation for your lab name\n\nE.g. 99-20240422_Data_Reporting_OCWA_raw.xlsx"
   },
   {
     "objectID": "index.html#structure-of-reporting-template",
     "href": "index.html#structure-of-reporting-template",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "Structure of Reporting Template",
     "text": "Structure of Reporting Template\n\nOpen the reporting template .xlsx file that you just renamed\nThe template is structured with a general intent to work sequentially\nRead_Me is the first worksheet and provides a name key and colour reference"
   },
   {
     "objectID": "index.html#lab_id-worksheet",
     "href": "index.html#lab_id-worksheet",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "Lab_ID Worksheet",
     "text": "Lab_ID Worksheet\n\nIf the filename was correctly renamed your Lab_ID will be populated in C1 with the name in E1\n\nVerify that the Lab_ID and name are correct"
   },
   {
     "objectID": "index.html#method_summary-worksheet",
     "href": "index.html#method_summary-worksheet",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "Method_Summary Worksheet",
     "text": "Method_Summary Worksheet\n\nThis worksheet is where the details of your methods are filled out starting with Method 1 in cell F9\n\n\n\nTip: Do not use a different method code if the pre-analytical steps (i.e., concentration/extraction steps) are the same. For example, if two targets (PMMoV and SARS-CoV-2) are characterized from the SAME RNA extract, the method is regarded as the same and should be described in the same method column entry.\nIndicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)"
   },
   {
     "objectID": "index.html#std_curve_data-worksheet-qpcr-only",
     "href": "index.html#std_curve_data-worksheet-qpcr-only",
-    "title": "Template-Guide",
+    "title": "LabStats.ca Reporting Template Guide",
     "section": "Std_Curve_Data Worksheet (qPCR only)",
     "text": "Std_Curve_Data Worksheet (qPCR only)\n\nFor methods using qPCR, this sheet is where the dilution series data from your standard curve(s) are populated\nColumns N through P are used to indicate if each dilution series point is used in your standard curve or not. In other words have any of the points chosen to be discarded keeping in mind the requirements from the Ontario protocol (Section 3)"
   },
