@@ -1,5 +1,5 @@
 ---
-title: "Template-Guide.github.io"
+title: "Template-Guide"
 ---
 
 ## Introduction
