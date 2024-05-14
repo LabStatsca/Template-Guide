@@ -1,5 +1,5 @@
 ---
-title: "Template-Guide"
+title: "LabStats.ca Reporting Template Guide"
 ---
 
 ## Introduction
