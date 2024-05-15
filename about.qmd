@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-About this site
+LabStats is OCWA's Proficiency Testing program for evaluation of respiratory viruses in wastewater matrices using PCR-based technologies.
 
-```{r}
-1 + 1
-```
+[![](images/labstats_logo.png)](http://www.labstats.ca)

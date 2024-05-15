@@ -1,10 +1,14 @@
 ---
 #title: "LabStats.ca Reporting Template Guide"
+number-sections: true
+number-depth: 3
 ---
 
-![](images/labstats_ca_logo.png){width="251"}
+[![](images/labstats_ca_logo.png){fig-align="left" width="251"}](http://www.labstats.ca)
 
-## Introduction to this guide
+# Introduction to this guide
+
+## Objective and Scope
 
 -   **Objective**: Provide a walk-through of the [Labstats.ca](Labstats.ca "Labstats.ca") reporting template (Excel xlsx file format)
 
@@ -31,7 +35,7 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 
     -   **LabID-20240422_Data_Reporting_LabName_raw.xlsx**
 
--   Open the reporting template, change to the Lab_Code worksheet
+-   Open the reporting template, change to the Lab_ID worksheet
 
     -   Find the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats\@ocwa.com ) if you cannot locate your lab
 
@@ -47,15 +51,27 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 
 -   The template is structured with a general intent to work sequentially
 
+-   Both qPCR and dPCR specific worksheets are present, it is suggested to hide worksheets of a platform you are not submitting results for
+
+    -   For example, to hide the dPCR_QC_Data worksheet, right-click and select 'Hide'
+
+![](images/hide_dpcr.PNG)
+
+# Worksheet Walk-through
+
+## Read_Me
+
 -   Read_Me is the first worksheet and provides a name key and colour reference
 
 ![](images/read_me.PNG){width="820"}
 
 ## Lab_ID
 
--   If the filename was correctly renamed your Lab_ID will be populated in C1 with the name in E1
+-   Fill out your Lab_ID in cell C1 (same as used for the filename)
 
-    -   Verify that the Lab_ID and name are correct
+    -   Verify that the lab name in cell E1 is correct
+
+![](images/lab_ID.PNG)
 
 ## Method_Summary
 
@@ -83,14 +99,6 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 
 -   If a long term standard curve is used to quantify results, please indicate in the column 'Long-term_curve'
 
-## qPCR_QC_Data (qPCR only)
-
--   For methods using qPCR, this sheet is where quality control results are to be reported
-
-## dPCR_QC_Data (dPCR only)
-
--   For methods using dPCR, this sheet is where quality control results are to be reported
-
 ## ESV_CF_Calc
 
 -   Effective sample volume (ESV) and concentration factor (CF) calculator
@@ -98,3 +106,29 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 -   This calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly
 
     -   ESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed
+
+## qPCR_QC_Data
+
+-   For methods using qPCR, this sheet is where quality control results are to be reported
+
+-   See @sec-qualifier for details on completing the 'Qualifier' columns:
+
+![](images/qualifier-columns.PNG)
+
+## dPCR_QC_Data
+
+-   For methods using dPCR, this sheet is where quality control results are to be reported
+
+## qPCR_Sample_Data
+
+-   For methods using qPCR, this sheet is where sample results and inhibition control data are to be reported
+
+## dPCR_Sample_Data
+
+-   For methods using dPCR, this sheet is where sample results and inhibition control data are to be reported
+
+## Qualifier_Flowchart {#sec-qualifier}
+
+-   Flowchart to assist with completing the technical replicate qualifier columns in the qPCR_QC_Data and qPCR_Sample_Data worksheets
+
+    -   Source with additional details is the Ontario reference document, [Protocol for Evaluations of RT-qPCR Performance Characteristics](https://files.ontario.ca/mecp-protocol-for-analyzing-wastewater-samples-en-2022-03-23.pdf)
