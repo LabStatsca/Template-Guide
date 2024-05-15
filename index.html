@@ -92,6 +92,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -108,18 +112,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction-to-this-guide" id="toc-introduction-to-this-guide" class="nav-link active" data-scroll-target="#introduction-to-this-guide">Introduction to this guide</a></li>
-  <li><a href="#accessing-the-reporting-template" id="toc-accessing-the-reporting-template" class="nav-link" data-scroll-target="#accessing-the-reporting-template">Accessing the Reporting Template</a></li>
-  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">Version Control</a></li>
-  <li><a href="#filename" id="toc-filename" class="nav-link" data-scroll-target="#filename">Filename</a></li>
-  <li><a href="#structure-of-reporting-template" id="toc-structure-of-reporting-template" class="nav-link" data-scroll-target="#structure-of-reporting-template">Structure of Reporting Template</a></li>
-  <li><a href="#lab_id" id="toc-lab_id" class="nav-link" data-scroll-target="#lab_id">Lab_ID</a></li>
-  <li><a href="#method_summary" id="toc-method_summary" class="nav-link" data-scroll-target="#method_summary">Method_Summary</a></li>
-  <li><a href="#std_curve_data-qpcr-only" id="toc-std_curve_data-qpcr-only" class="nav-link" data-scroll-target="#std_curve_data-qpcr-only">Std_Curve_Data (qPCR only)</a></li>
-  <li><a href="#std_curve_summary-qpcr-only" id="toc-std_curve_summary-qpcr-only" class="nav-link" data-scroll-target="#std_curve_summary-qpcr-only">Std_Curve_Summary (qPCR only)</a></li>
-  <li><a href="#qpcr_qc_data-qpcr-only" id="toc-qpcr_qc_data-qpcr-only" class="nav-link" data-scroll-target="#qpcr_qc_data-qpcr-only">qPCR_QC_Data (qPCR only)</a></li>
-  <li><a href="#dpcr_qc_data-dpcr-only" id="toc-dpcr_qc_data-dpcr-only" class="nav-link" data-scroll-target="#dpcr_qc_data-dpcr-only">dPCR_QC_Data (dPCR only)</a></li>
-  <li><a href="#esv_cf_calc" id="toc-esv_cf_calc" class="nav-link" data-scroll-target="#esv_cf_calc">ESV_CF_Calc</a></li>
+  <li><a href="#introduction-to-this-guide" id="toc-introduction-to-this-guide" class="nav-link active" data-scroll-target="#introduction-to-this-guide"><span class="header-section-number">1</span> Introduction to this guide</a>
+  <ul class="collapse">
+  <li><a href="#objective-and-scope" id="toc-objective-and-scope" class="nav-link" data-scroll-target="#objective-and-scope"><span class="header-section-number">1.1</span> Objective and Scope</a></li>
+  <li><a href="#accessing-the-reporting-template" id="toc-accessing-the-reporting-template" class="nav-link" data-scroll-target="#accessing-the-reporting-template"><span class="header-section-number">1.2</span> Accessing the Reporting Template</a></li>
+  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control"><span class="header-section-number">1.3</span> Version Control</a></li>
+  <li><a href="#filename" id="toc-filename" class="nav-link" data-scroll-target="#filename"><span class="header-section-number">1.4</span> Filename</a></li>
+  <li><a href="#structure-of-reporting-template" id="toc-structure-of-reporting-template" class="nav-link" data-scroll-target="#structure-of-reporting-template"><span class="header-section-number">1.5</span> Structure of Reporting Template</a></li>
+  </ul></li>
+  <li><a href="#worksheet-walk-through" id="toc-worksheet-walk-through" class="nav-link" data-scroll-target="#worksheet-walk-through"><span class="header-section-number">2</span> Worksheet Walk-through</a>
+  <ul class="collapse">
+  <li><a href="#read_me" id="toc-read_me" class="nav-link" data-scroll-target="#read_me"><span class="header-section-number">2.1</span> Read_Me</a></li>
+  <li><a href="#lab_id" id="toc-lab_id" class="nav-link" data-scroll-target="#lab_id"><span class="header-section-number">2.2</span> Lab_ID</a></li>
+  <li><a href="#method_summary" id="toc-method_summary" class="nav-link" data-scroll-target="#method_summary"><span class="header-section-number">2.3</span> Method_Summary</a></li>
+  <li><a href="#std_curve_data-qpcr-only" id="toc-std_curve_data-qpcr-only" class="nav-link" data-scroll-target="#std_curve_data-qpcr-only"><span class="header-section-number">2.4</span> Std_Curve_Data (qPCR only)</a></li>
+  <li><a href="#std_curve_summary-qpcr-only" id="toc-std_curve_summary-qpcr-only" class="nav-link" data-scroll-target="#std_curve_summary-qpcr-only"><span class="header-section-number">2.5</span> Std_Curve_Summary (qPCR only)</a></li>
+  <li><a href="#esv_cf_calc" id="toc-esv_cf_calc" class="nav-link" data-scroll-target="#esv_cf_calc"><span class="header-section-number">2.6</span> ESV_CF_Calc</a></li>
+  <li><a href="#qpcr_qc_data" id="toc-qpcr_qc_data" class="nav-link" data-scroll-target="#qpcr_qc_data"><span class="header-section-number">2.7</span> qPCR_QC_Data</a></li>
+  <li><a href="#dpcr_qc_data" id="toc-dpcr_qc_data" class="nav-link" data-scroll-target="#dpcr_qc_data"><span class="header-section-number">2.8</span> dPCR_QC_Data</a></li>
+  <li><a href="#qpcr_sample_data" id="toc-qpcr_sample_data" class="nav-link" data-scroll-target="#qpcr_sample_data"><span class="header-section-number">2.9</span> qPCR_Sample_Data</a></li>
+  <li><a href="#dpcr_sample_data" id="toc-dpcr_sample_data" class="nav-link" data-scroll-target="#dpcr_sample_data"><span class="header-section-number">2.10</span> dPCR_Sample_Data</a></li>
+  <li><a href="#sec-qualifier" id="toc-sec-qualifier" class="nav-link" data-scroll-target="#sec-qualifier"><span class="header-section-number">2.11</span> Qualifier_Flowchart</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -129,38 +143,44 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="images/labstats_ca_logo.png" class="img-fluid" width="251"></p>
-<section id="introduction-to-this-guide" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-this-guide">Introduction to this guide</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="http://www.labstats.ca"><img src="images/labstats_ca_logo.png" class="img-fluid quarto-figure quarto-figure-left figure-img" width="251"></a></p>
+</figure>
+</div>
+<section id="introduction-to-this-guide" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction to this guide</h1>
+<section id="objective-and-scope" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="objective-and-scope"><span class="header-section-number">1.1</span> Objective and Scope</h2>
 <ul>
 <li><p><strong>Objective</strong>: Provide a walk-through of the <a href="Labstats.ca" title="Labstats.ca">Labstats.ca</a> reporting template (Excel xlsx file format)</p></li>
 <li><p><strong>Scope</strong>: Applicable to all laboratories participating in a <a href="Labstats.ca" title="Labstats.ca">Labstats.ca</a> Proficiency Test</p></li>
 </ul>
 <p>Signup information and program details are available at <a href="Labstats.ca" title="Labstats.ca">Labstats.ca</a></p>
 </section>
-<section id="accessing-the-reporting-template" class="level2">
-<h2 class="anchored" data-anchor-id="accessing-the-reporting-template">Accessing the Reporting Template</h2>
+<section id="accessing-the-reporting-template" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="accessing-the-reporting-template"><span class="header-section-number">1.2</span> Accessing the Reporting Template</h2>
 <ul>
 <li>After login on <a href="Labstats.ca" title="Labstats.ca">Labstats.ca</a>, the reporting template is available for download in the ‘Shared’ folder of ‘Participant info &amp; results’</li>
 </ul>
 <p><img src="images/download-template.PNG" class="img-fluid" width="512"></p>
 </section>
-<section id="version-control" class="level2">
-<h2 class="anchored" data-anchor-id="version-control">Version Control</h2>
+<section id="version-control" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="version-control"><span class="header-section-number">1.3</span> Version Control</h2>
 <ul>
 <li>Each sample round will use a dedicated version of the Reporting Template</li>
 <li>Template version is specified on Row 3 of the <strong>Read_Me</strong> worksheet:</li>
 </ul>
 <p><img src="images/template-version.PNG" class="img-fluid"></p>
 </section>
-<section id="filename" class="level2">
-<h2 class="anchored" data-anchor-id="filename">Filename</h2>
+<section id="filename" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="filename"><span class="header-section-number">1.4</span> Filename</h2>
 <ul>
 <li><p>The downloaded reporting template will have a file name in this format:</p>
 <ul>
 <li><strong>LabID-20240422_Data_Reporting_LabName_raw.xlsx</strong></li>
 </ul></li>
-<li><p>Open the reporting template, change to the Lab_Code worksheet</p>
+<li><p>Open the reporting template, change to the Lab_ID worksheet</p>
 <ul>
 <li>Find the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats@ocwa.com ) if you cannot locate your lab</li>
 </ul></li>
@@ -171,26 +191,40 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="structure-of-reporting-template" class="level2">
-<h2 class="anchored" data-anchor-id="structure-of-reporting-template">Structure of Reporting Template</h2>
+<section id="structure-of-reporting-template" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="structure-of-reporting-template"><span class="header-section-number">1.5</span> Structure of Reporting Template</h2>
 <ul>
 <li><p>Open the reporting template .xlsx file that you just renamed</p></li>
 <li><p>The template is structured with a general intent to work sequentially</p></li>
-<li><p>Read_Me is the first worksheet and provides a name key and colour reference</p></li>
+<li><p>Both qPCR and dPCR specific worksheets are present, it is suggested to hide worksheets of a platform you are not submitting results for</p>
+<ul>
+<li>For example, to hide the dPCR_QC_Data worksheet, right-click and select ‘Hide’</li>
+</ul></li>
+</ul>
+<p><img src="images/hide_dpcr.PNG" class="img-fluid"></p>
+</section>
+</section>
+<section id="worksheet-walk-through" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Worksheet Walk-through</h1>
+<section id="read_me" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="read_me"><span class="header-section-number">2.1</span> Read_Me</h2>
+<ul>
+<li>Read_Me is the first worksheet and provides a name key and colour reference</li>
 </ul>
 <p><img src="images/read_me.PNG" class="img-fluid" width="820"></p>
 </section>
-<section id="lab_id" class="level2">
-<h2 class="anchored" data-anchor-id="lab_id">Lab_ID</h2>
+<section id="lab_id" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="lab_id"><span class="header-section-number">2.2</span> Lab_ID</h2>
 <ul>
-<li><p>If the filename was correctly renamed your Lab_ID will be populated in C1 with the name in E1</p>
+<li><p>Fill out your Lab_ID in cell C1 (same as used for the filename)</p>
 <ul>
-<li>Verify that the Lab_ID and name are correct</li>
+<li>Verify that the lab name in cell E1 is correct</li>
 </ul></li>
 </ul>
+<p><img src="images/lab_ID.PNG" class="img-fluid"></p>
 </section>
-<section id="method_summary" class="level2">
-<h2 class="anchored" data-anchor-id="method_summary">Method_Summary</h2>
+<section id="method_summary" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="method_summary"><span class="header-section-number">2.3</span> Method_Summary</h2>
 <ul>
 <li>This worksheet is where the details of your methods are filled out starting with Method 1 in cell F9</li>
 </ul>
@@ -200,16 +234,16 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Indicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)</p></li>
 </ul>
 </section>
-<section id="std_curve_data-qpcr-only" class="level2">
-<h2 class="anchored" data-anchor-id="std_curve_data-qpcr-only">Std_Curve_Data (qPCR only)</h2>
+<section id="std_curve_data-qpcr-only" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="std_curve_data-qpcr-only"><span class="header-section-number">2.4</span> Std_Curve_Data (qPCR only)</h2>
 <ul>
 <li><p>For methods using qPCR, this sheet is where the dilution series data from your standard curve(s) are populated</p></li>
 <li><p>Columns N through P are used to indicate if each dilution series point is used in your standard curve or not. In other words have any of the points chosen to be discarded keeping in mind the requirements from the <a href="https://www.ontario.ca/page/protocol-analyzing-wastewater-samples">Ontario protocol</a> (Section 3)</p></li>
 </ul>
 <p><img src="images/points_indicator.PNG" class="img-fluid"></p>
 </section>
-<section id="std_curve_summary-qpcr-only" class="level2">
-<h2 class="anchored" data-anchor-id="std_curve_summary-qpcr-only">Std_Curve_Summary (qPCR only)</h2>
+<section id="std_curve_summary-qpcr-only" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="std_curve_summary-qpcr-only"><span class="header-section-number">2.5</span> Std_Curve_Summary (qPCR only)</h2>
 <ul>
 <li><p>For methods using qPCR, this sheet is where parameters of the standard curves are reported</p>
 <ul>
@@ -218,20 +252,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>If a long term standard curve is used to quantify results, please indicate in the column ‘Long-term_curve’</p></li>
 </ul>
 </section>
-<section id="qpcr_qc_data-qpcr-only" class="level2">
-<h2 class="anchored" data-anchor-id="qpcr_qc_data-qpcr-only">qPCR_QC_Data (qPCR only)</h2>
-<ul>
-<li>For methods using qPCR, this sheet is where quality control results are to be reported</li>
-</ul>
-</section>
-<section id="dpcr_qc_data-dpcr-only" class="level2">
-<h2 class="anchored" data-anchor-id="dpcr_qc_data-dpcr-only">dPCR_QC_Data (dPCR only)</h2>
-<ul>
-<li>For methods using dPCR, this sheet is where quality control results are to be reported</li>
-</ul>
-</section>
-<section id="esv_cf_calc" class="level2">
-<h2 class="anchored" data-anchor-id="esv_cf_calc">ESV_CF_Calc</h2>
+<section id="esv_cf_calc" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="esv_cf_calc"><span class="header-section-number">2.6</span> ESV_CF_Calc</h2>
 <ul>
 <li><p>Effective sample volume (ESV) and concentration factor (CF) calculator</p></li>
 <li><p>This calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly</p>
@@ -239,8 +261,44 @@ ul.task-list li input[type="checkbox"] {
 <li>ESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed</li>
 </ul></li>
 </ul>
+</section>
+<section id="qpcr_qc_data" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="qpcr_qc_data"><span class="header-section-number">2.7</span> qPCR_QC_Data</h2>
+<ul>
+<li><p>For methods using qPCR, this sheet is where quality control results are to be reported</p></li>
+<li><p>See <a href="#sec-qualifier" class="quarto-xref">Section&nbsp;2.11</a> for details on completing the ‘Qualifier’ columns:</p></li>
+</ul>
+<p><img src="images/qualifier-columns.PNG" class="img-fluid"></p>
+</section>
+<section id="dpcr_qc_data" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="dpcr_qc_data"><span class="header-section-number">2.8</span> dPCR_QC_Data</h2>
+<ul>
+<li>For methods using dPCR, this sheet is where quality control results are to be reported</li>
+</ul>
+</section>
+<section id="qpcr_sample_data" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="qpcr_sample_data"><span class="header-section-number">2.9</span> qPCR_Sample_Data</h2>
+<ul>
+<li>For methods using qPCR, this sheet is where sample results and inhibition control data are to be reported</li>
+</ul>
+</section>
+<section id="dpcr_sample_data" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="dpcr_sample_data"><span class="header-section-number">2.10</span> dPCR_Sample_Data</h2>
+<ul>
+<li>For methods using dPCR, this sheet is where sample results and inhibition control data are to be reported</li>
+</ul>
+</section>
+<section id="sec-qualifier" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="sec-qualifier"><span class="header-section-number">2.11</span> Qualifier_Flowchart</h2>
+<ul>
+<li><p>Flowchart to assist with completing the technical replicate qualifier columns in the qPCR_QC_Data and qPCR_Sample_Data worksheets</p>
+<ul>
+<li>Source with additional details is the Ontario reference document, <a href="https://files.ontario.ca/mecp-protocol-for-analyzing-wastewater-samples-en-2022-03-23.pdf">Protocol for Evaluations of RT-qPCR Performance Characteristics</a></li>
+</ul></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

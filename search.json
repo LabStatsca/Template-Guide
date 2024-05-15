@@ -1,93 +1,121 @@
 [
   {
-    "objectID": "index.html#introduction-to-this-guide",
-    "href": "index.html#introduction-to-this-guide",
-    "title": "Reporting Template Guide",
-    "section": "Introduction to this guide",
-    "text": "Introduction to this guide\n\nObjective: Provide a walk-through of the Labstats.ca reporting template (Excel xlsx file format)\nScope: Applicable to all laboratories participating in a Labstats.ca Proficiency Test\n\nSignup information and program details are available at Labstats.ca"
+    "objectID": "index.html#objective-and-scope",
+    "href": "index.html#objective-and-scope",
+    "title": "1 Introduction to this guide",
+    "section": "1.1 Objective and Scope",
+    "text": "1.1 Objective and Scope\n\nObjective: Provide a walk-through of the Labstats.ca reporting template (Excel xlsx file format)\nScope: Applicable to all laboratories participating in a Labstats.ca Proficiency Test\n\nSignup information and program details are available at Labstats.ca"
   },
   {
     "objectID": "index.html#accessing-the-reporting-template",
     "href": "index.html#accessing-the-reporting-template",
-    "title": "Reporting Template Guide",
-    "section": "Accessing the Reporting Template",
-    "text": "Accessing the Reporting Template\n\nAfter login on Labstats.ca, the reporting template is available for download in the ‘Shared’ folder of ‘Participant info & results’"
+    "title": "1 Introduction to this guide",
+    "section": "1.2 Accessing the Reporting Template",
+    "text": "1.2 Accessing the Reporting Template\n\nAfter login on Labstats.ca, the reporting template is available for download in the ‘Shared’ folder of ‘Participant info & results’"
   },
   {
     "objectID": "index.html#version-control",
     "href": "index.html#version-control",
-    "title": "Reporting Template Guide",
-    "section": "Version Control",
-    "text": "Version Control\n\nEach sample round will use a dedicated version of the Reporting Template\nTemplate version is specified on Row 3 of the Read_Me worksheet:"
+    "title": "1 Introduction to this guide",
+    "section": "1.3 Version Control",
+    "text": "1.3 Version Control\n\nEach sample round will use a dedicated version of the Reporting Template\nTemplate version is specified on Row 3 of the Read_Me worksheet:"
   },
   {
     "objectID": "index.html#filename",
     "href": "index.html#filename",
-    "title": "Reporting Template Guide",
-    "section": "Filename",
-    "text": "Filename\n\nThe downloaded reporting template will have a file name in this format:\n\nLabID-20240422_Data_Reporting_LabName_raw.xlsx\n\nOpen the reporting template, change to the Lab_Code worksheet\n\nFind the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats@ocwa.com ) if you cannot locate your lab\n\nClose the reporting template\nEdit the file name in Windows to replace the ‘LabID’ with your Lab_ID number from above and change the ‘Labname’ to an abbreviation for your lab name\n\nE.g. 99-20240422_Data_Reporting_OCWA_raw.xlsx"
+    "title": "1 Introduction to this guide",
+    "section": "1.4 Filename",
+    "text": "1.4 Filename\n\nThe downloaded reporting template will have a file name in this format:\n\nLabID-20240422_Data_Reporting_LabName_raw.xlsx\n\nOpen the reporting template, change to the Lab_ID worksheet\n\nFind the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats@ocwa.com ) if you cannot locate your lab\n\nClose the reporting template\nEdit the file name in Windows to replace the ‘LabID’ with your Lab_ID number from above and change the ‘Labname’ to an abbreviation for your lab name\n\nE.g. 99-20240422_Data_Reporting_OCWA_raw.xlsx"
   },
   {
     "objectID": "index.html#structure-of-reporting-template",
     "href": "index.html#structure-of-reporting-template",
-    "title": "Reporting Template Guide",
-    "section": "Structure of Reporting Template",
-    "text": "Structure of Reporting Template\n\nOpen the reporting template .xlsx file that you just renamed\nThe template is structured with a general intent to work sequentially\nRead_Me is the first worksheet and provides a name key and colour reference"
+    "title": "1 Introduction to this guide",
+    "section": "1.5 Structure of Reporting Template",
+    "text": "1.5 Structure of Reporting Template\n\nOpen the reporting template .xlsx file that you just renamed\nThe template is structured with a general intent to work sequentially\nBoth qPCR and dPCR specific worksheets are present, it is suggested to hide worksheets of a platform you are not submitting results for\n\nFor example, to hide the dPCR_QC_Data worksheet, right-click and select ‘Hide’"
+  },
+  {
+    "objectID": "index.html#read_me",
+    "href": "index.html#read_me",
+    "title": "1 Introduction to this guide",
+    "section": "2.1 Read_Me",
+    "text": "2.1 Read_Me\n\nRead_Me is the first worksheet and provides a name key and colour reference"
   },
   {
     "objectID": "index.html#lab_id",
     "href": "index.html#lab_id",
-    "title": "Reporting Template Guide",
-    "section": "Lab_ID",
-    "text": "Lab_ID\n\nIf the filename was correctly renamed your Lab_ID will be populated in C1 with the name in E1\n\nVerify that the Lab_ID and name are correct"
+    "title": "1 Introduction to this guide",
+    "section": "2.2 Lab_ID",
+    "text": "2.2 Lab_ID\n\nFill out your Lab_ID in cell C1 (same as used for the filename)\n\nVerify that the lab name in cell E1 is correct"
   },
   {
     "objectID": "index.html#method_summary",
     "href": "index.html#method_summary",
-    "title": "Reporting Template Guide",
-    "section": "Method_Summary",
-    "text": "Method_Summary\n\nThis worksheet is where the details of your methods are filled out starting with Method 1 in cell F9\n\n\n\nTip: Do not use a different method code if the pre-analytical steps (i.e., concentration/extraction steps) are the same. For example, if two targets (PMMoV and SARS-CoV-2) are characterized from the SAME RNA extract, the method is regarded as the same and should be described in the same method column entry.\nIndicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)"
+    "title": "1 Introduction to this guide",
+    "section": "2.3 Method_Summary",
+    "text": "2.3 Method_Summary\n\nThis worksheet is where the details of your methods are filled out starting with Method 1 in cell F9\n\n\n\nTip: Do not use a different method code if the pre-analytical steps (i.e., concentration/extraction steps) are the same. For example, if two targets (PMMoV and SARS-CoV-2) are characterized from the SAME RNA extract, the method is regarded as the same and should be described in the same method column entry.\nIndicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)"
   },
   {
     "objectID": "index.html#std_curve_data-qpcr-only",
     "href": "index.html#std_curve_data-qpcr-only",
-    "title": "Reporting Template Guide",
-    "section": "Std_Curve_Data (qPCR only)",
-    "text": "Std_Curve_Data (qPCR only)\n\nFor methods using qPCR, this sheet is where the dilution series data from your standard curve(s) are populated\nColumns N through P are used to indicate if each dilution series point is used in your standard curve or not. In other words have any of the points chosen to be discarded keeping in mind the requirements from the Ontario protocol (Section 3)"
+    "title": "1 Introduction to this guide",
+    "section": "2.4 Std_Curve_Data (qPCR only)",
+    "text": "2.4 Std_Curve_Data (qPCR only)\n\nFor methods using qPCR, this sheet is where the dilution series data from your standard curve(s) are populated\nColumns N through P are used to indicate if each dilution series point is used in your standard curve or not. In other words have any of the points chosen to be discarded keeping in mind the requirements from the Ontario protocol (Section 3)"
   },
   {
     "objectID": "index.html#std_curve_summary-qpcr-only",
     "href": "index.html#std_curve_summary-qpcr-only",
-    "title": "Reporting Template Guide",
-    "section": "Std_Curve_Summary (qPCR only)",
-    "text": "Std_Curve_Summary (qPCR only)\n\nFor methods using qPCR, this sheet is where parameters of the standard curves are reported\n\nPaired with the dilution series data reported on Std_Curve_Data\n\nIf a long term standard curve is used to quantify results, please indicate in the column ‘Long-term_curve’"
-  },
-  {
-    "objectID": "index.html#qpcr_qc_data-qpcr-only",
-    "href": "index.html#qpcr_qc_data-qpcr-only",
-    "title": "Reporting Template Guide",
-    "section": "qPCR_QC_Data (qPCR only)",
-    "text": "qPCR_QC_Data (qPCR only)\n\nFor methods using qPCR, this sheet is where quality control results are to be reported"
-  },
-  {
-    "objectID": "index.html#dpcr_qc_data-dpcr-only",
-    "href": "index.html#dpcr_qc_data-dpcr-only",
-    "title": "Reporting Template Guide",
-    "section": "dPCR_QC_Data (dPCR only)",
-    "text": "dPCR_QC_Data (dPCR only)\n\nFor methods using dPCR, this sheet is where quality control results are to be reported"
+    "title": "1 Introduction to this guide",
+    "section": "2.5 Std_Curve_Summary (qPCR only)",
+    "text": "2.5 Std_Curve_Summary (qPCR only)\n\nFor methods using qPCR, this sheet is where parameters of the standard curves are reported\n\nPaired with the dilution series data reported on Std_Curve_Data\n\nIf a long term standard curve is used to quantify results, please indicate in the column ‘Long-term_curve’"
   },
   {
     "objectID": "index.html#esv_cf_calc",
     "href": "index.html#esv_cf_calc",
-    "title": "Reporting Template Guide",
-    "section": "ESV_CF_Calc",
-    "text": "ESV_CF_Calc\n\nEffective sample volume (ESV) and concentration factor (CF) calculator\nThis calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly\n\nESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed"
+    "title": "1 Introduction to this guide",
+    "section": "2.6 ESV_CF_Calc",
+    "text": "2.6 ESV_CF_Calc\n\nEffective sample volume (ESV) and concentration factor (CF) calculator\nThis calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly\n\nESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed"
+  },
+  {
+    "objectID": "index.html#qpcr_qc_data",
+    "href": "index.html#qpcr_qc_data",
+    "title": "1 Introduction to this guide",
+    "section": "2.7 qPCR_QC_Data",
+    "text": "2.7 qPCR_QC_Data\n\nFor methods using qPCR, this sheet is where quality control results are to be reported\nSee Section 2.11 for details on completing the ‘Qualifier’ columns:"
+  },
+  {
+    "objectID": "index.html#dpcr_qc_data",
+    "href": "index.html#dpcr_qc_data",
+    "title": "1 Introduction to this guide",
+    "section": "2.8 dPCR_QC_Data",
+    "text": "2.8 dPCR_QC_Data\n\nFor methods using dPCR, this sheet is where quality control results are to be reported"
+  },
+  {
+    "objectID": "index.html#qpcr_sample_data",
+    "href": "index.html#qpcr_sample_data",
+    "title": "1 Introduction to this guide",
+    "section": "2.9 qPCR_Sample_Data",
+    "text": "2.9 qPCR_Sample_Data\n\nFor methods using qPCR, this sheet is where sample results and inhibition control data are to be reported"
+  },
+  {
+    "objectID": "index.html#dpcr_sample_data",
+    "href": "index.html#dpcr_sample_data",
+    "title": "1 Introduction to this guide",
+    "section": "2.10 dPCR_Sample_Data",
+    "text": "2.10 dPCR_Sample_Data\n\nFor methods using dPCR, this sheet is where sample results and inhibition control data are to be reported"
+  },
+  {
+    "objectID": "index.html#sec-qualifier",
+    "href": "index.html#sec-qualifier",
+    "title": "1 Introduction to this guide",
+    "section": "2.11 Qualifier_Flowchart",
+    "text": "2.11 Qualifier_Flowchart\n\nFlowchart to assist with completing the technical replicate qualifier columns in the qPCR_QC_Data and qPCR_Sample_Data worksheets\n\nSource with additional details is the Ontario reference document, Protocol for Evaluations of RT-qPCR Performance Characteristics"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "LabStats is OCWA’s Proficiency Testing program for evaluation of respiratory viruses in wastewater matrices using PCR-based technologies."
   }
 ]
