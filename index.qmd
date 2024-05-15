@@ -1,12 +1,12 @@
 ---
 #title: "LabStats.ca Reporting Template Guide"
 number-sections: true
-number-depth: 3
+number-depth: 2
 ---
 
 [![](images/labstats_ca_logo.png){fig-align="left" width="251"}](http://www.labstats.ca)
 
-# Introduction to this guide
+# Introduction
 
 ## Objective and Scope
 
@@ -49,15 +49,15 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 
 -   Open the reporting template .xlsx file that you just renamed
 
--   The template is structured with a general intent to work sequentially
+-   The template is structured with a general intent to complete worksheets sequentially
 
--   Both qPCR and dPCR specific worksheets are present, it is suggested to hide worksheets of a platform you are not submitting results for
+-   Both qPCR and dPCR specific worksheets are present by default, it is suggested to hide worksheets of a platform you are not submitting results for simplicity
 
     -   For example, to hide the dPCR_QC_Data worksheet, right-click and select 'Hide'
 
 ![](images/hide_dpcr.PNG)
 
-# Worksheet Walk-through
+# Worksheets
 
 ## Read_Me
 
