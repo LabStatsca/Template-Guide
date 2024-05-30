@@ -4,7 +4,7 @@
     "href": "index.html#objective-and-scope",
     "title": "1 Introduction",
     "section": "1.1 Objective and Scope",
-    "text": "1.1 Objective and Scope\n\nObjective: Provide a walk-through of the Labstats.ca reporting template (Excel xlsx file format)\nScope: Applicable to all laboratories participating in a Labstats.ca Proficiency Test\n\nSignup information and program details are available at Labstats.ca"
+    "text": "1.1 Objective and Scope\n\nObjective: Provide a walk-through of the Labstats.ca reporting template (Excel xlsx file format)\nScope: Applicable to all laboratories participating in a Labstats.ca Proficiency Test\n\n\n\n\n\n\n\nNote\n\n\n\nSignup information and program details are available at Labstats.ca"
   },
   {
     "objectID": "index.html#accessing-the-reporting-template",
@@ -25,14 +25,14 @@
     "href": "index.html#filename",
     "title": "1 Introduction",
     "section": "1.4 Filename",
-    "text": "1.4 Filename\n\nThe downloaded reporting template will have a file name in this format:\n\nLabID-20240422_Data_Reporting_LabName_raw.xlsx\n\nOpen the reporting template, change to the Lab_ID worksheet\n\nFind the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats@ocwa.com ) if you cannot locate your lab\n\nClose the reporting template\nEdit the file name in Windows to replace the ‘LabID’ with your Lab_ID number from above and change the ‘Labname’ to an abbreviation for your lab name\n\nE.g. 99-20240422_Data_Reporting_OCWA_raw.xlsx"
+    "text": "1.4 Filename\n\nThe downloaded reporting template will have a file name in this format:\n\nLabID-20240422_Data_Reporting_LabName_raw.xlsx\n\nOpen the reporting template, change to the Lab_ID worksheet\n\nFind the Lab_ID number that corresponds with your lab. Send us an e-mail ( LabStats@ocwa.com ) if you cannot locate your lab\n\nClose the reporting template\nEdit the file name in Windows to replace the ‘LabID’ with your Lab_ID number from above and change the ‘Labname’ to an abbreviation for your lab name\n\nE.g. 99-20240422_Data_Reporting_OCWA_raw.xlsx\n\n\n\n\n\n\n\n\nTip\n\n\n\nRecord your lab ID number in a convenient location to avoid looking it up for future PT rounds."
   },
   {
     "objectID": "index.html#structure-of-reporting-template",
     "href": "index.html#structure-of-reporting-template",
     "title": "1 Introduction",
     "section": "1.5 Structure of Reporting Template",
-    "text": "1.5 Structure of Reporting Template\n\nOpen the reporting template .xlsx file that you just renamed\nThe template is structured with a general intent to complete worksheets sequentially\nBoth qPCR and dPCR specific worksheets are present by default, it is suggested to hide worksheets of a platform you are not submitting results for simplicity\n\nFor example, to hide the dPCR_QC_Data worksheet, right-click and select ‘Hide’"
+    "text": "1.5 Structure of Reporting Template\n\nOpen the reporting template .xlsx file that you just renamed\n\n\n\n\n\n\n\nTip\n\n\n\nThe template is structured for worksheets to be populated sequentially.\n\n\n\nBoth qPCR and dPCR specific worksheets are present by default, it is suggested to hide worksheets of a platform you are not submitting results for simplicity\n\nFor example, to hide the dPCR_QC_Data worksheet, right-click and select ‘Hide’"
   },
   {
     "objectID": "index.html#read_me",
@@ -53,7 +53,7 @@
     "href": "index.html#method_summary",
     "title": "1 Introduction",
     "section": "2.3 Method_Summary",
-    "text": "2.3 Method_Summary\n\nThis worksheet is where the details of your methods are filled out starting with Method 1 in cell F9\n\n\n\nTip: Do not use a different method code if the pre-analytical steps (i.e., concentration/extraction steps) are the same. For example, if two targets (PMMoV and SARS-CoV-2) are characterized from the SAME RNA extract, the method is regarded as the same and should be described in the same method column entry.\nIndicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)"
+    "text": "2.3 Method_Summary\n\nThis worksheet is where the details of your methods are filled out starting with Method 1 in cell F9\n\n\n\n\n\n\n\n\nNote\n\n\n\nDo not use a different method code if the pre-analytical steps (i.e., concentration/extraction steps) are the same. For example, if two targets (PMMoV and SARS-CoV-2) are characterized from the SAME RNA extract, the method is regarded as the same and should be described in the same method column entry.\n\n\n\nIndicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)"
   },
   {
     "objectID": "index.html#std_curve_data-qpcr-only",
@@ -74,7 +74,7 @@
     "href": "index.html#esv_cf_calc",
     "title": "1 Introduction",
     "section": "2.6 ESV_CF_Calc",
-    "text": "2.6 ESV_CF_Calc\n\nEffective sample volume (ESV) and concentration factor (CF) calculator\nThis calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly\n\nESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed"
+    "text": "2.6 ESV_CF_Calc\n\nEffective sample volume (ESV) and concentration factor (CF) calculator\nThis calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly\n\n\n\n\n\n\n\nImportant\n\n\n\nESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed."
   },
   {
     "objectID": "index.html#qpcr_qc_data",
@@ -109,7 +109,7 @@
     "href": "index.html#sec-qualifier",
     "title": "1 Introduction",
     "section": "2.11 Qualifier_Flowchart",
-    "text": "2.11 Qualifier_Flowchart\n\nFlowchart to assist with completing the technical replicate qualifier columns in the qPCR_QC_Data and qPCR_Sample_Data worksheets\n\nSource with additional details is the Ontario reference document, Protocol for Evaluations of RT-qPCR Performance Characteristics"
+    "text": "2.11 Qualifier_Flowchart\n\nFlowchart to assist with completing the technical replicate qualifier columns in the qPCR_QC_Data and qPCR_Sample_Data worksheets\n\n\n\n\n\n\n\nNote\n\n\n\nAdditional details can be found in the Ontario protocol document, Protocol for Evaluations of RT-qPCR Performance Characteristics"
   },
   {
     "objectID": "about.html",
