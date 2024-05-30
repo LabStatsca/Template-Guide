@@ -4,23 +4,23 @@ number-sections: true
 number-depth: 2
 ---
 
-[![](images/labstats_ca_logo.png){fig-align="left" width="251"}](http://www.labstats.ca)
+[![](images/labstats_ca_logo.png){fig-align="left" width="251"}](https://www.labstats.ca)
 
 # Introduction
 
 ## Objective and Scope
 
--   **Objective**: Provide a walk-through of the [Labstats.ca](Labstats.ca "Labstats.ca") reporting template (Excel xlsx file format)
+-   **Objective**: Provide a walk-through of the [Labstats.ca](https://www.labstats.ca) reporting template (Excel xlsx file format)
 
--   **Scope**: Applicable to all laboratories participating in a [Labstats.ca](Labstats.ca "Labstats.ca") Proficiency Test
+-   **Scope**: Applicable to all laboratories participating in a [Labstats.ca](https://www.labstats.ca) Proficiency Test
 
 ::: callout-note
-Signup information and program details are available at [Labstats.ca](Labstats.ca "Labstats.ca")
+Signup information and program details are available at [Labstats.ca](https://www.labstats.ca)
 :::
 
 ## Accessing the Reporting Template
 
--   After login on [Labstats.ca](Labstats.ca "Labstats.ca"), the reporting template is available for download in the 'Shared' folder of 'Participant info & results'
+-   After login on [Labstats.ca](https://www.labstats.ca), the reporting template is available for download in the 'Shared' folder of 'Participant info & results'
 
 ![](images/download-template.PNG){width="512"}
 
@@ -46,7 +46,7 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 -   Edit the file name in Windows to replace the 'LabID' with your Lab_ID number from above and change the 'Labname' to an abbreviation for your lab name
 
     -   E.g. **99-20240422_Data_Reporting_OCWA_raw.xlsx**
-    
+
 ::: callout-tip
 Record your lab ID number in a convenient location to avoid looking it up for future PT rounds.
 :::
@@ -144,6 +144,5 @@ ESV is essential so that the reported concentration estimates are representative
 -   Flowchart to assist with completing the technical replicate qualifier columns in the qPCR_QC_Data and qPCR_Sample_Data worksheets
 
 ::: callout-note
-Additional details can be found in the Ontario protocol document, [Protocol for Evaluations of RT-qPCR Performance Characteristics](https://www.ontario.ca/page/protocol-analyzing-wastewater-samples)
+Additional details can be found in the Ontario protocol document: [Protocol for Evaluations of RT-qPCR Performance Characteristics](https://www.ontario.ca/page/protocol-analyzing-wastewater-samples)
 :::
-
