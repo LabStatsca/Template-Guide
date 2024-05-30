@@ -14,7 +14,9 @@ number-depth: 2
 
 -   **Scope**: Applicable to all laboratories participating in a [Labstats.ca](Labstats.ca "Labstats.ca") Proficiency Test
 
+::: callout-note
 Signup information and program details are available at [Labstats.ca](Labstats.ca "Labstats.ca")
+:::
 
 ## Accessing the Reporting Template
 
@@ -44,12 +46,18 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 -   Edit the file name in Windows to replace the 'LabID' with your Lab_ID number from above and change the 'Labname' to an abbreviation for your lab name
 
     -   E.g. **99-20240422_Data_Reporting_OCWA_raw.xlsx**
+    
+::: callout-tip
+Record your lab ID number in a convenient location to avoid looking it up for future PT rounds.
+:::
 
 ## Structure of Reporting Template
 
 -   Open the reporting template .xlsx file that you just renamed
 
--   The template is structured with a general intent to complete worksheets sequentially
+::: callout-tip
+The template is structured for worksheets to be populated sequentially.
+:::
 
 -   Both qPCR and dPCR specific worksheets are present by default, it is suggested to hide worksheets of a platform you are not submitting results for simplicity
 
@@ -79,7 +87,9 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 
 ![](images/method_code.PNG){width="842"}
 
--   Tip: Do not use a different method code if the pre-analytical steps (i.e., concentration/extraction steps) are the same. For example, if two targets (PMMoV and SARS-CoV-2) are characterized from the SAME RNA extract, the method is regarded as the same and should be described in the same method column entry.
+::: callout-note
+Do not use a different method code if the pre-analytical steps (i.e., concentration/extraction steps) are the same. For example, if two targets (PMMoV and SARS-CoV-2) are characterized from the SAME RNA extract, the method is regarded as the same and should be described in the same method column entry.
+:::
 
 -   Indicate the platform used for quantification in row 33 for each method (qPCR/dPCR/both)
 
@@ -105,7 +115,9 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 
 -   This calculator is optional but highly recommended to ensure that the ESV and CF are calculated correctly
 
-    -   ESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed
+::: callout-important
+ESV is essential so that the reported concentration estimates are representative of the amount of the original wastewater sample that was actually analyzed.
+:::
 
 ## qPCR_QC_Data
 
@@ -131,4 +143,7 @@ Signup information and program details are available at [Labstats.ca](Labstats.c
 
 -   Flowchart to assist with completing the technical replicate qualifier columns in the qPCR_QC_Data and qPCR_Sample_Data worksheets
 
-    -   Source with additional details is the Ontario reference document, [Protocol for Evaluations of RT-qPCR Performance Characteristics](https://files.ontario.ca/mecp-protocol-for-analyzing-wastewater-samples-en-2022-03-23.pdf)
+::: callout-note
+Additional details can be found in the Ontario protocol document, [Protocol for Evaluations of RT-qPCR Performance Characteristics](https://www.ontario.ca/page/protocol-analyzing-wastewater-samples)
+:::
+
