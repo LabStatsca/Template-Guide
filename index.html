@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Reporting Template Guide</title>
+<title>Reporting Template Guide (DRAFT in progress)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,11 +79,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Reporting Template Guide</span>
+    <span class="navbar-title">Reporting Template Guide (DRAFT in progress)</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -326,7 +326,15 @@ Important
 <section id="qpcr_qc_data" class="level2" data-number="2.7">
 <h2 data-number="2.7" class="anchored" data-anchor-id="qpcr_qc_data"><span class="header-section-number">2.7</span> qPCR_QC_Data</h2>
 <ul>
-<li><p>For methods using qPCR, this sheet is where quality control results are to be reported</p></li>
+<li><p>For methods using qPCR, this sheet is where quality control results are to be reported</p>
+<p>QA/QC Controls</p></li>
+<li><p>Biological replicates: Aliquots of the same sample that are introduced at the initial processing step (e.g., 50 mL aliquots from a well-mixed 1.0-L sample; each 50 mL aliquot is subjected to the entire analytical procedure).</p></li>
+<li><p>Technical replicates: Aliquots of the template obtained from the same RNA extract (biological replicate)</p></li>
+<li><p>Negative control: the analysis of each primer set to verify that no contaminating nucleic acid has been introduced into reagents or into samples during sample processing (US EPA, 2004)</p></li>
+<li><p>No Template Control (NTC): Negative control including all PCR reagents except for the template (Nolan et al., 2013).</p></li>
+<li><p>Whole process blank: Negative control initiated at the concentration step and carried through the entire workflow to verify no contamination (US EPA, 2004).</p></li>
+<li><p>Positive control: controls prepared and analyzed to verify that the method is capable of adequately recovering and amplifying the target (US EPA, 2004).</p></li>
+<li><p>Internal Amplification Control (IAC): a control performed to verify successful amplification of targets, to confirm that negative results are not due to unsuccessful amplification (US EPA, 2004)</p></li>
 <li><p>See <a href="#sec-qualifier" class="quarto-xref">Section&nbsp;2.11</a> for details on completing the ‘Qualifier’ columns:</p></li>
 </ul>
 <p><img src="images/qualifier-columns.PNG" class="img-fluid"></p>
@@ -408,18 +416,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -451,7 +448,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/LabStatsca\.github\.io\/Template-Guide\/");
@@ -459,7 +478,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

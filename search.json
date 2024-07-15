@@ -81,7 +81,7 @@
     "href": "index.html#qpcr_qc_data",
     "title": "1 Introduction",
     "section": "2.7 qPCR_QC_Data",
-    "text": "2.7 qPCR_QC_Data\n\nFor methods using qPCR, this sheet is where quality control results are to be reported\nSee Section 2.11 for details on completing the ‘Qualifier’ columns:"
+    "text": "2.7 qPCR_QC_Data\n\nFor methods using qPCR, this sheet is where quality control results are to be reported\nQA/QC Controls\nBiological replicates: Aliquots of the same sample that are introduced at the initial processing step (e.g., 50 mL aliquots from a well-mixed 1.0-L sample; each 50 mL aliquot is subjected to the entire analytical procedure).\nTechnical replicates: Aliquots of the template obtained from the same RNA extract (biological replicate)\nNegative control: the analysis of each primer set to verify that no contaminating nucleic acid has been introduced into reagents or into samples during sample processing (US EPA, 2004)\nNo Template Control (NTC): Negative control including all PCR reagents except for the template (Nolan et al., 2013).\nWhole process blank: Negative control initiated at the concentration step and carried through the entire workflow to verify no contamination (US EPA, 2004).\nPositive control: controls prepared and analyzed to verify that the method is capable of adequately recovering and amplifying the target (US EPA, 2004).\nInternal Amplification Control (IAC): a control performed to verify successful amplification of targets, to confirm that negative results are not due to unsuccessful amplification (US EPA, 2004)\nSee Section 2.11 for details on completing the ‘Qualifier’ columns:"
   },
   {
     "objectID": "index.html#dpcr_qc_data",
