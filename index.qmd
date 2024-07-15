@@ -1,5 +1,5 @@
 ---
-#title: "LabStats.ca Reporting Template Guide"
+#title: "LabStats.ca Reporting Template Guide (DRAFT)"
 number-sections: true
 number-depth: 2
 ---
@@ -122,6 +122,22 @@ ESV is essential so that the reported concentration estimates are representative
 ## qPCR_QC_Data
 
 -   For methods using qPCR, this sheet is where quality control results are to be reported
+
+    QA/QC Controls
+
+-   Biological replicates: Aliquots of the same sample that are introduced at the initial processing step (e.g., 50 mL aliquots from a well-mixed 1.0-L sample; each 50 mL aliquot is subjected to the entire analytical procedure).
+
+-   Technical replicates: Aliquots of the template obtained from the same RNA extract (biological replicate)
+
+-   Negative control: the analysis of each primer set to verify that no contaminating nucleic acid has been introduced into reagents or into samples during sample processing (US EPA, 2004)
+
+-   No Template Control (NTC): Negative control including all PCR reagents except for the template (Nolan et al., 2013).
+
+-   Whole process blank: Negative control initiated at the concentration step and carried through the entire workflow to verify no contamination (US EPA, 2004).
+
+-   Positive control: controls prepared and analyzed to verify that the method is capable of adequately recovering and amplifying the target (US EPA, 2004).
+
+-   Internal Amplification Control (IAC): a control performed to verify successful amplification of targets, to confirm that negative results are not due to unsuccessful amplification (US EPA, 2004)
 
 -   See @sec-qualifier for details on completing the 'Qualifier' columns:
 
